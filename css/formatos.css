@@ -1,0 +1,155 @@
+﻿/* CSS Document */
+/*@font-face {
+    font-family: 'Economica';
+    src: url('../fonts/Economica-Regular.eot');
+    src: url('../fonts/Economica-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Economica-Regular.woff') format('woff'),
+         url('../fonts/Economica-Regular.ttf') format('truetype'),
+         url('../fonts/Economica-Regular.svg#Economica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?47597263');
+  src: url('../fonts/fontello.eot?47597263#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?47597263') format('woff'),
+       url('../fonts/fontello.ttf?47597263') format('truetype'),
+       url('../fonts/fontello.svg?47597263#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.backPortada { background:#FFF url("../images/back_portada.png") no-repeat top center; }
+
+
+/* Menu */
+#menu {text-align: right;}
+#menu ul { border-bottom:1px dotted #347396; float:right; padding:20px 0; width:690px; }
+#menu li { display:inline; padding:0 2px; list-style:none; height:20px; position:relative;}
+#menu li.sep { border-right:1px solid #6491c7;}
+#menu li a { font:20px 'Economica', Arial, Helvetica, sans-serif; color:/*#6a9ebb*/#fff; text-decoration:none; padding:17px 20px; text-shadow:0 0 4px #333333;}
+#menu li a:hover { color:/*#FFFFFF*/#82a8d3; text-shadow: 1px 1px 1px #003E7E; border-bottom:4px solid #00314e; }
+
+/* Sub Menu */
+#menu li ul { background:#7099c8 url("../images/sel_menu.png") no-repeat 40px 0; margin:0px; padding:8px 0 0 0; display:none; border-radius:8px; box-shadow:1px 10px 8px -10px #333333; position:absolute; float:left; left:0px; top:32px; text-align:left; border-bottom:4px solid #00314e; z-index:9999;}
+#menu li:hover ul {display:block; width:300px;}
+#menu li li {list-style:none; display:list-item; padding:10px 5px;}
+#menu li li.separator { border-bottom:1px dotted #c0e6ef;}
+#menu li li a {color:#fff; text-decoration:none; font:18px 'Economica', Arial, Helvetica, sans-serif;}
+#menu li li a:hover {color:#003e7e; text-decoration:none; text-shadow:none; border-bottom:none;}
+
+
+/* Logo */
+header h1.logoGeoestudios { width:243px; height:166px; float:left; background:url("../images/logo_geoestudios.png") no-repeat top center; display:block; margin-top:15px; text-indent:-5000px;}
+header h2.slogan{ width:436px; height:83px; float:right; background:url("../images/slogan.png") no-repeat top center; display:block; margin-top:40px; text-indent:-5000px;}
+
+
+/* Textos portada */
+.textoPortada { width:400px; margin:60px auto 150px; font:14px/18px 'Economica', Arial, Helvetica, sans-serif; color:#FFF; text-align:justify; }
+.direccionesPortada { width:560px; margin:40px auto 20px;  font:13px/18px 'Economica', Arial, Helvetica, sans-serif; color:#FFF; text-align:center; }
+
+
+#contenedor .caja {float:left; margin:25px; width:275px; height:auto; padding-bottom:20px; background:url("../images/separador.jpg") repeat-x bottom center; }
+#contenedor .caja h3 { color:#3496c6; font:27px 'Economica', Arial, Helvetica, sans-serif; margin-bottom:10px; }
+#contenedor .caja a img { border: 1px solid #FFFFFF; box-shadow:0 0 5px 0 #999999; margin:5px 0 10px;}
+#contenedor .caja a:hover img { border-color:#3496c6; }
+
+
+#contenedor .cajaFull {margin-bottom:15px; width:980px; padding:25px; background:url("../images/separador.jpg") repeat-x bottom center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display:inline-block;}
+#contenedor .cajaFull h2 { color:#3496c6; font:38px 'Economica', Arial, Helvetica, sans-serif; margin-bottom:10px; }
+#contenedor .cajaFull h3 { color:#00406c; font:20px/25px 'Titillium Web', sans-serif; margin-bottom:15px; font-weight:bold; margin-top:10px;}
+#contenedor .cajaFull span.fecha { color:#8d8d8d; font:16px/18px 'Titillium Web', sans-serif; font-weight:bold;}
+#contenedor .cajaFull img { border: 1px solid #FFFFFF; box-shadow:0 0 5px 0 #999999; margin:5px 15px 10px 0; float:left;}
+#contenedor .cajaFull p{margin-bottom:10px;}
+#contenedor .cajaFull p.bajada{font:20px/27px 'Economica', Arial, Helvetica, sans-serif; color:#7f8c8d; text-align: left;}
+#contenedor .cajaFull ul {margin:5px 0 15px 0; list-style-type:circle; padding-left:30px;}
+#contenedor .cajaFull ul li{margin-bottom:5px;}
+#contenedor .cajaFull ul ul{list-style:square;}
+#contenedor .cajaFull table{width:63%; float:left;}
+#contenedor .cajaFull table img{width:95%;}
+
+#contenedor .cajaFull .cajaPro{float:right; border:2px dotted #b9bbbd; padding:5px; width:35%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom:10px;}
+#contenedor .cajaFull .cajaPro ul{background-color:#e1e1e1; color:#878787; margin:0; padding:8px 10px 8px 25px; list-style:square;}
+#contenedor .cajaFull .cajaPro ul li{border-bottom:1px solid #cbcbcb; padding-bottom:10px;}
+#contenedor .cajaFull .cajaPro ul li:first-child{list-style:none; border:none;}
+#contenedor .cajaFull .cajaPro ul li:last-child{border:none;}
+#contenedor .cajaFull .cajaPro ul li > h4{font-size:22px; margin:10px 0; color:#474747;}
+
+
+/*-- Formulario --*/
+.izquierda { width:390px; float:left; padding:0; }
+.derecha { width:524px; height:380px; float:right; padding:4px 0 0 14px;}
+
+#formulario { width:370px; padding:3px; border:1px solid #EEE; border-radius:6px; margin:22px 0 8px 0; background:rgba(255,255,255,0.5);}
+#formulario #Enviar { margin:8px 0;}
+.labelTexto { width:100px; height:20px; float:left; padding:6px; background-color:#EEEEEE; border:1px solid #FFFFFF; color:#466EB1;}
+.labelCampo { width:240px; height:20px; float:left; padding:6px; background-color:#EEEEEE; border:1px solid #FFFFFF;}
+.labelTextoTextarea { width:100px; height:70px; float:left; padding:6px; background-color:#EEEEEE; border:1px solid #FFFFFF; color:#466EB1;}
+.labelTextarea { width:240px; height:70px; float:left; padding:6px; background-color:#EEEEEE; border:1px solid #FFFFFF;}
+.labelCampo input,textarea,select {width:180px; border:1px solid #A1B2CE; background-color:#FFFFFF; font-size:11px; padding:2px;}
+
+
+/* -- Correos -- */
+.contactosNombres { width:225px; float:left; padding-left:10px;}
+.contactosNombres li { padding:8px 0; }
+
+.contactosEmails { width:190px; float:left;}
+.contactosEmails li { padding:15px 0;}
+.derecha li a { font-weight:bold; color:#002E5C;}
+.derecha li a:hover { color:#c9d4dd;}
+.derecha li { list-style:circle; padding:0; margin:10px 0;}
+.derecha a { font-weight:bold; color:#002E5C; }
+.derecha a:hover { color:#c9d4dd; }
+
+
+.derecha ul {list-style:circle; padding:4px 0 6px 16px; color:#c9d4dd;}
+.derecha li {}
+
+.dotter { border-left:2px dotted #c9d4dd;}
+.dotter1 { border-bottom:2px dotted #c9d4dd;}
+
+/* Redes */ 
+.redes { float:right; margin-top:-10px; width:172px; }
+.redes a { display:block; color:rgba(255, 255, 255, 0.6); }
+.redes i { background-color:rgba(255, 255, 255, 0.15); border-radius:30px; float:left; margin:0 8px; padding:9px 6px; }
+.redes i:hover { background-color:#FFF; color:#00406c; }
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  font-variant: normal;
+  text-transform: none;
+  font-size:1.3em;
+  line-height: 1em;
+  margin-left: .2em;
+}
+ 
+.icon-youtube:before { content: '\e800'; } /* '' */
+.icon-skype:before { content: '\e801'; } /* '' */
+.icon-gplus:before { content: '\e803'; } /* '' */
+.icon-twitter:before { content: '\e805'; } /* '' */
+.icon-facebook:before { content: '\e806'; } /* '' */
+
+
+/* Footer */
+footer { }
+
+footer .menuFooter ul{ box-sizing: border-box; display:block; float:left; margin:45px 18px; width:29%;}
+footer .menuFooter ul li { padding:0;}
+footer .menuFooter ul li h4 { color:#00406c; font:22px 'Economica', Arial, Helvetica, sans-serif;}
+footer .menuFooter ul li a { box-sizing:border-box; color:#FFF; border-bottom:1px dotted #27a4d4; text-decoration:none; padding:10px 0; display:block; }
+footer .menuFooter ul li a:hover { background:url("../images/bullMenu.gif") no-repeat left center; color:#00406c; padding-left:12px; }
+footer .copy { background-color:#00406c; padding:30px; color:#aad1ea; clear:both; }
