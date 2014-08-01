@@ -18,8 +18,6 @@ $gracias = "Gracias";
 
 <link rel="shortcut icon" href="favicon.ico">
 
-<link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/style.css" media="screen" />
 <link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
 
